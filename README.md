@@ -2,7 +2,7 @@
 ### 1. 从洛谷题面中获取样例
 1. 首先你需要在工作区中新建名为`timian.md`文件，用于保存Markdown格式的题面（可从洛谷上复制）
 2. 你需要修改`judge.bat`文件中编译器g++.exe的路径（若已配置环境变量也可直接填写g++）
-3. 在 PowerShell 中执行以下命令`.\judge.bat [cpp源文件名] [输入文件名] [输出文件名] [样例输出文件名] [测试样例编号]`
+3. 在 PowerShell 中执行以下命令`.\judge.bat [cpp源文件名（无需后缀名）] [输入文件名+后缀名] [输出文件名+后缀名] [样例输出文件名+后缀名] [测试样例编号]`
 4. 你只需打开`diff.txt`即可查看测试结果
 ##### 大抵是这样：
 ![大抵是这样](https://cdn.luogu.com.cn/upload/image_hosting/kypcs75g.png)
